@@ -1,0 +1,130 @@
+/* ======== Configurações Globais ======== */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+    background-color: #121212; /* Fundo preto elegante */
+    color: #e0e0e0; /* Texto em cinza claro */
+    line-height: 1.8; /* Maior espaçamento entre linhas para leitura */
+}
+
+/* ======== Cabeçalho ======== */
+header {
+    background: #1e3a5f; /* Azul petróleo */
+    color: #d4af37; /* Dourado para contraste */
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 3px; /* Espaçamento entre letras */
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #e0e0e0; /* Cinza claro */
+}
+
+/* ======== Navegação ======== */
+nav {
+    background: #2c6e91; /* Azul mais vibrante */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #d4af37; /* Dourado */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out; /* Suavidade no hover */
+}
+
+nav a:hover {
+    color: #2c6e91; /* Azul claro */
+}
+
+/* ======== Seção Principal ======== */
+section {
+    padding: 40px 20px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #d4af37; /* Dourado */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/* ======== Cards de Serviços ======== */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #1e1e1e; /* Fundo cinza escuro */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Sombra intensa */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Leve aumento no tamanho */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 1); /* Sombra mais marcante */
+}
+
+.card h3 {
+    background: #2c6e91; /* Azul claro */
+    color: #fff;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card p {
+    padding: 20px;
+    color: #e0e0e0; /* Texto em cinza claro */
+}
+
+/* ======== Rodapé ======== */
+footer {
+    background: #1e1e1e; /* Fundo cinza escuro */
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    border-top: 2px solid #2c6e91; /* Linha decorativa azul */
+}
+
+footer a {
+    color: #d4af37; /* Dourado */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #2c6e91; /* Azul claro */
+}
